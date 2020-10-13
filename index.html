@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0
+        }
+        html{
+            font-size: 13.333333vw !important
+        }
+        body {
+            /*font-size: .16rem*/
+        }
+        .box{
+            width: 7.5rem;
+            background:#000;
+            height: 30vw;
+            color:#fff
+        }
+        .second-box{
+            display:flex;
+        }
+        .box1, .box2{
+            width: 3.75rem;
+            background: #ff5252;
+            height: 3.75rem
+        }
+        .box2 {
+            background: #ff6700
+        }
+    </style>
+    <script src="node_modules/select/dist/select.js"></script>
+</head>
+<body>
+    <div id="app">
+        <section class="box"></section>
+        <section class="second-box">
+            <div class="box1"></div>
+            <div class="box2"></div>
+        </section>
+    </div>
+</body>
+</html>
